@@ -10,4 +10,7 @@ var extraCredit = 5;
 if(studentfailingGrade + extraCredit > studentpassingGrade){
     //if true the condition will perform
     console.log("you pass :)")
+}else{
+   //if false condition will perform
+    console.log(""you fail :(")
 }
