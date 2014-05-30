@@ -15,7 +15,7 @@ var begin = ("Lets begin");
 console.log(begin);
 alert(begin);
 
-var player = prompt("Enter your card number");
+var player = prompt("Enter your card number from 1 to 14");
 //If the player has a 10 or better he wins, otherwise he losses the game
 //Since were are not using strings, but numbers instead "J,Q,K,A" will be "11,12,13,14"
 warGame = (player > 10) ? "You Won" : "You Lost";
